@@ -1,4 +1,4 @@
-package br.com.aparelho;
+package br.com.aparelho.funcionalidades;
 
 public interface ReprodutorMusicial {
     void tocar(String musica);

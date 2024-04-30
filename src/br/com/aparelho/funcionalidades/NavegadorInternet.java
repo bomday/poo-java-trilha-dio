@@ -1,4 +1,4 @@
-package br.com.aparelho;
+package br.com.aparelho.funcionalidades;
 
 public interface NavegadorInternet {
     void exibirPagina(String url);

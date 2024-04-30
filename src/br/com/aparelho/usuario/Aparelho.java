@@ -1,6 +1,10 @@
-package br.com.aparelho;
+package br.com.aparelho.usuario;
 
-public class Aparelho implements ReprodutorMusicial, AparelhoTelefonico, NavegadorInternet{
+import br.com.aparelho.funcionalidades.AparelhoTelefonico;
+import br.com.aparelho.funcionalidades.NavegadorInternet;
+import br.com.aparelho.funcionalidades.ReprodutorMusicial;
+
+public class Aparelho implements ReprodutorMusicial, AparelhoTelefonico, NavegadorInternet {
     @Override
     public void tocar(String musica) {
         System.out.println("Tocando " + musica + "!!!");
